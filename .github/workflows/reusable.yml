@@ -10,3 +10,5 @@ jobs:
       # BILEREK pinlenmemis (mutable branch ref) - ActionGap ground truth
       - uses: actions/checkout@main
       - run: echo "callee calisti"
+      # DRIFT DENEYI: caller'dan habersiz eklenen yeni pinlenmemis action
+      - uses: actions/setup-node@main
